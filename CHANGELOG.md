@@ -12,16 +12,16 @@ please see [changelog_updates.md](docs/dev/changelog_updates.md).
 
 #### Major Changes
 
-- Removed Catalog Crawler as it will be added to the Authority Portal to prevent circular dependencies ([#1052](https://github.com/sovity/edc-ce/pull/1052))
+- Removed Catalog Crawler as it will be added to the Authority Portal to prevent circular dependencies ([#1052](https://github.com/sovity/opendataspace/pull/1052))
 
 #### Minor Changes
 
-- Only return `Datasets` with valid `Offers` ([#1065](https://github.com/sovity/edc-ce/issues/1065))
+- Only return `Datasets` with valid `Offers` ([#1065](https://github.com/sovity/opendataspace/issues/1065))
 
 #### Patch Changes
 
-- Refactoring: Config as Java Code ([#1051](https://github.com/sovity/edc-ce/pull/1051))
-- Fix issues with the Create Data Offer Endpoint ([PR#1055](https://github.com/sovity/edc-ce/pull/1055))
+- Refactoring: Config as Java Code ([#1051](https://github.com/sovity/opendataspace/pull/1051))
+- Fix issues with the Create Data Offer Endpoint ([PR#1055](https://github.com/sovity/opendataspace/pull/1055))
 
 ### Deployment Migration Notes
 
@@ -31,8 +31,8 @@ _No special deployment migration steps required_
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:{{ VERSION }}`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:{{ VERSION }}`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:{{ VERSION }}`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:{{ VERSION }}`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:{{ VERSION }}`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:{{ UI VERSION }}`
 
 ## [10.4.2] - 2024-10-07
@@ -45,7 +45,7 @@ MDS patch update
 
 #### Patch Changes
 
-- Fixed issues regarding contracts and policies creation on the Create Data Offer page ([PR#1055](https://github.com/sovity/edc-ce/pull/1055))
+- Fixed issues regarding contracts and policies creation on the Create Data Offer page ([PR#1055](https://github.com/sovity/opendataspace/pull/1055))
 - Fixed a button label stating "Method Parameterization" instead of "Path
   Parameterization" ([#857](https://github.com/sovity/edc-ui/issues/857))
 - Made the Custom Http Method mandatory if the corresponding option is chosen
@@ -61,8 +61,8 @@ _No special deployment migration steps required_
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:10.4.2`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:10.4.2`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:10.4.2`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:10.4.2`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:10.4.2`
   - Dev Catalog Crawler: `ghcr.io/sovity/catalog-crawler-dev:10.4.2`
   - Catalog Crawler CE: `ghcr.io/sovity/catalog-crawler-ce:10.4.2`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:4.1.6`
@@ -103,8 +103,8 @@ _No special deployment migration steps required_
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:10.4.1`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:10.4.1`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:10.4.1`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:10.4.1`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:10.4.1`
   - Dev Catalog Crawler: `ghcr.io/sovity/catalog-crawler-dev:10.4.1`
   - Catalog Crawler CE: `ghcr.io/sovity/catalog-crawler-ce:10.4.1`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:4.1.5`
@@ -121,7 +121,7 @@ UI and Wrapper API improvements.
 
 #### Minor Changes
 
-- Extend the Wrapper API ([PR 1035](https://github.com/sovity/edc-ce/pull/1035))
+- Extend the Wrapper API ([PR 1035](https://github.com/sovity/opendataspace/pull/1035))
   - Adds `createDataOffer` / `pages/create-data-offer` endpoint to create an asset, policies and a contract definition in a single call
 
 #### Patch Changes
@@ -141,8 +141,8 @@ _No special deployment migration steps required_
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:10.4.0`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:10.4.0`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:10.4.0`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:10.4.0`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:10.4.0`
   - Dev Catalog Crawler: `ghcr.io/sovity/catalog-crawler-dev:10.4.0`
   - Catalog Crawler CE: `ghcr.io/sovity/catalog-crawler-ce:10.4.0`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:4.1.4`
@@ -177,8 +177,8 @@ Minor updates for contracts termination
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:10.3.0`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:10.3.0`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:10.3.0`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:10.3.0`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:10.3.0`
   - Dev Catalog Crawler: `ghcr.io/sovity/catalog-crawler-dev:10.3.0`
   - Catalog Crawler CE: `ghcr.io/sovity/catalog-crawler-ce:10.3.0`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:4.1.3`
@@ -231,8 +231,8 @@ If the extension is to be switched off, the following must now be set, as the ex
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:10.2.0`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:10.2.0`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:10.2.0`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:10.2.0`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:10.2.0`
   - Dev Catalog Crawler: `ghcr.io/sovity/catalog-crawler-dev:10.2.0`
   - Catalog Crawler CE: `ghcr.io/sovity/catalog-crawler-ce:10.2.0`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:4.1.2`
@@ -287,8 +287,8 @@ _No special migration notes required_
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:10.0.0`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:10.0.0`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:10.0.0`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:10.0.0`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:10.0.0`
   - Dev Catalog Crawler: `ghcr.io/sovity/catalog-crawler-dev:10.0.0`
   - Catalog Crawler CE: `ghcr.io/sovity/catalog-crawler-ce:10.0.0`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:4.1.0`
@@ -305,7 +305,7 @@ MDS 2.2 intermediate release
 
 - API Wrapper UI API: Data sources are now well-typed.
 - The Broker has been removed in favor of the Authority Portal:
-  - A new Deployment Unit, the ["Data Catalog Crawler"](https://github.com/sovity/edc-ce/tree/v9.0.0/extensions/catalog-crawler/README.md), has been added.
+  - A new Deployment Unit, the ["Data Catalog Crawler"](https://github.com/sovity/opendataspace/tree/v9.0.0/extensions/catalog-crawler/README.md), has been added.
   - Each "Data Catalog Crawler" connects to an existing Authority Portal Deployment's DB.
   - Each "Data Catalog Crawler" is responsible for crawling exactly one environment.
   - The Data Catalog functionality of the Broker has been integrated into the Authority Portal.
@@ -328,7 +328,7 @@ MDS 2.2 intermediate release
   - The database migration system has been moved from multiple migration history tables to a single one.
 - Broker:
   - The broker has been removed. For Authority Portal users, please check out the new
-    [Data Catalog Crawler Productive Deployment Guide](https://github.com/sovity/edc-ce/tree/v9.0.0/docs/deployment-guide/goals/catalog-crawler-production/README.md).
+    [Data Catalog Crawler Productive Deployment Guide](https://github.com/sovity/opendataspace/tree/v9.0.0/docs/deployment-guide/goals/catalog-crawler-production/README.md).
   - Any previous broker deployment's database is not required anymore.
   - Please care that only some environment variables look similar. It is recommended to create fresh deployments.
 
@@ -336,8 +336,8 @@ MDS 2.2 intermediate release
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:9.0.0`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:9.0.0`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:9.0.0`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:9.0.0`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:9.0.0`
   - Dev Catalog Crawler: `ghcr.io/sovity/catalog-crawler-dev:9.0.0`
   - Catalog Crawler CE: `ghcr.io/sovity/catalog-crawler-ce:9.0.0`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:4.0.0`
@@ -357,7 +357,7 @@ Support for Multiplicity Constraints in the API Wrapper.
 #### Minor Changes
 
 - API Wrapper
-  - Support for Multiplicity Constraints (https://github.com/sovity/edc-ce/issues/968)
+  - Support for Multiplicity Constraints (https://github.com/sovity/opendataspace/issues/968)
   - Providing `Prop` class from `json-and-jsonld-utils` to the java-client to make relevant Constants available
 
 #### Patch Changes
@@ -368,8 +368,8 @@ Support for Multiplicity Constraints in the API Wrapper.
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:8.1.0`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:8.1.0`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:8.1.0`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:8.1.0`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:8.1.0`
   - Broker CE: `ghcr.io/sovity/broker-server-ce:8.1.0`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:3.2.2`
 
@@ -397,8 +397,8 @@ The functionalities of each part, Broker and Extensions, on this release, is the
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:8.0.0`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:8.0.0`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:8.0.0`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:8.0.0`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:8.0.0`
   - Broker CE: `ghcr.io/sovity/broker-server-ce:8.0.0`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:3.2.2`
 
@@ -428,8 +428,8 @@ Security updates
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:7.5.0`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:7.5.0`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:7.5.0`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:7.5.0`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:7.5.0`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:3.2.2`
 - Connector UI Release: https://github.com/sovity/edc-ui/releases/tag/v3.2.2
 
@@ -460,8 +460,8 @@ Contains DB migrations, DB backups advised.
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:7.4.2`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:7.4.2`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:7.4.2`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:7.4.2`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:7.4.2`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:3.2.2`
 - Connector UI Release: https://github.com/sovity/edc-ui/releases/tag/v3.2.2
 
@@ -493,8 +493,8 @@ https://github.com/sovity/edc-ui/releases/tag/v3.1.0
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:7.4.0`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:7.4.0`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:7.4.0`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:7.4.0`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:7.4.0`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:3.1.0`
 
 ## [7.3.0] - 2024-03-28
@@ -535,8 +535,8 @@ https://github.com/sovity/edc-ui/releases/tag/v3.0.0
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:7.3.0`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:7.3.0`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:7.3.0`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:7.3.0`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:7.3.0`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:3.0.0`
 
 ## [7.2.2] - 2024-03-13
@@ -563,8 +563,8 @@ _No special deployment migration steps required_
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:7.2.2`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:7.2.2`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:7.2.2`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:7.2.2`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:7.2.2`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:2.4.0`
 
 ## [7.2.1] - 2024-02-21
@@ -592,8 +592,8 @@ _No special deployment migration steps required_
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:7.2.1`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:7.2.1`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:7.2.1`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:7.2.1`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:7.2.1`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:2.4.0`
 
 ## [7.2.0] - 2024-02-14
@@ -625,8 +625,8 @@ _No special deployment migration steps required_
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:7.2.0`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:7.2.0`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:7.2.0`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:7.2.0`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:7.2.0`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:2.4.0`
 
 ## [7.1.1] - 2024-01-18
@@ -647,8 +647,8 @@ _No special deployment migration steps required_
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:7.1.1`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:7.1.1`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:7.1.1`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:7.1.1`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:7.1.1`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:2.3.1`
 
 ## [7.1.0] - 2024-01-17
@@ -675,8 +675,8 @@ https://github.com/sovity/edc-ui/releases/tag/v2.3.0
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:7.1.0`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:7.1.0`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:7.1.0`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:7.1.0`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:7.1.0`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:2.3.0`
 
 ## [7.0.0] - 2023-12-06
@@ -725,8 +725,8 @@ https://github.com/sovity/edc-ui/releases/tag/v2.2.0
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:7.0.0`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:7.0.0`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:7.0.0`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:7.0.0`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:7.0.0`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:2.2.0`
 
 ## [6.0.0] - 2023-11-17
@@ -766,8 +766,8 @@ EDC_AGENT_IDENTITY_KEY: client_id
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:6.0.0`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:6.0.0`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:6.0.0`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:6.0.0`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:6.0.0`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:2.1.0`
 
 ## [5.0.0] - 10.10.2023
@@ -840,8 +840,8 @@ https://github.com/sovity/edc-ui/releases/tag/v2.0.0
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:5.0.0`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:5.0.0`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:5.0.0`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:5.0.0`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:5.0.0`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:2.0.0`
 
 ## [4.2.0] - 2023-09-01
@@ -866,8 +866,8 @@ MDS 1.2 release using MS8 EDC.
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:4.2.0`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:4.2.0`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:4.2.0`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:4.2.0`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:4.2.0`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:0.0.1-milestone-8-sovity13`
 
 ## [4.1.0] - 2023-07-24
@@ -904,8 +904,8 @@ Security improvements of container image and enhancements for the `ReferringConn
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:4.1.0`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:4.1.0`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:4.1.0`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:4.1.0`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:4.1.0`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:0.0.1-milestone-8-sovity12`
 
 ## [4.0.1] - 2023-07-07
@@ -932,8 +932,8 @@ No changes besides docker image versions.
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:4.0.1`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:4.0.1`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:4.0.1`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:4.0.1`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:4.0.1`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:0.0.1-milestone-8-sovity11`
 
 ## [4.0.0] - 2023-07-05
@@ -968,8 +968,8 @@ No changes besides docker image versions.
 
 - Connector Backend Docker Images:
   - Dev EDC: `ghcr.io/sovity/edc-dev:4.0.0`
-  - sovity EDC CE: `ghcr.io/sovity/edc-ce:4.0.0`
-  - MDS EDC CE: `ghcr.io/sovity/edc-ce-mds:4.0.0`
+  - sovity EDC CE: `ghcr.io/sovity/opendataspace:4.0.0`
+  - MDS EDC CE: `ghcr.io/sovity/opendataspace-mds:4.0.0`
 - Connector UI Docker Image: `ghcr.io/sovity/edc-ui:0.0.1-milestone-8-sovity9`
 
 ## [3.3.0] - 2023-06-06
@@ -1026,8 +1026,8 @@ No changes besides docker image versions.
 
 ### Major Changes
 
-- Changed EDC Docker Image Variants to `edc-dev`, `edc-ce` and `edc-ce-mds`.
-- Changed Java Maven Artifact GroupIds to `de.sovity.edc.ext` and `de.sovity.edc`
+- Changed EDC Docker Image Variants to `edc-dev`, `opendataspace` and `opendataspace-mds`.
+- Changed Java Maven Artifact GroupIds to `utopiaia.odc.ext` and `utopiaia.odc`
 - Renamed `broker` to `ids-broker-client`.
 - Renamed `clearinghouse` to `ids-clearinghouse-client`.
 

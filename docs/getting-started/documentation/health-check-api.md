@@ -21,7 +21,7 @@ To test the interaction with the MIW/DAPS, it is recommended to use the catalog 
 - **Request Body**: Please refer to the latest Postman collection for up-to-date details on the request body.
 
 {% hint style="info" %} 
-Link: <a href="https://github.com/sovity/edc-ce/blob/main/docs/api/postman_collection.json">Postman Collection</a>
+Link: <a href="https://github.com/sovity/opendataspace/blob/main/docs/api/postman_collection.json">Postman Collection</a>
 {% endhint %}
 
 ## Conclusion

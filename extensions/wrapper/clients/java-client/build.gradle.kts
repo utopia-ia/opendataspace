@@ -55,9 +55,9 @@ tasks.getByName<org.openapitools.generator.gradle.plugin.tasks.GenerateTask>("op
     generatorName.set("java")
     configOptions.set(
             mutableMapOf(
-                    "invokerPackage" to "de.sovity.edc.client.gen",
-                    "apiPackage" to "de.sovity.edc.client.gen.api",
-                    "modelPackage" to "de.sovity.edc.client.gen.model",
+                    "invokerPackage" to "utopiaia.odc.client.gen",
+                    "apiPackage" to "utopiaia.odc.client.gen.api",
+                    "modelPackage" to "utopiaia.odc.client.gen.model",
                     "caseInsensitiveResponseHeaders" to "true",
                     "additionalModelTypeAnnotations" to listOf(
                         "@lombok.AllArgsConstructor",

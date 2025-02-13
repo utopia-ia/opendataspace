@@ -30,7 +30,7 @@ val generateGradleVersions by tasks.creating {
                     .build()
             )
             .build()
-        val packageName = "de.sovity.edc.utils.versions"
+        val packageName = "utopiaia.odc.utils.versions"
         val javaFile = JavaFile.builder(packageName, versionsClass)
             .build()
 

@@ -38,7 +38,7 @@ tasks.withType<io.swagger.v3.plugins.gradle.tasks.ResolveTask> {
     outputFormat = io.swagger.v3.plugins.gradle.tasks.ResolveTask.Format.YAML
     classpath = java.sourceSets["main"].runtimeClasspath
     buildClasspath = classpath
-    resourcePackages = setOf("de.sovity.edc.ext.wrapper.api")
+    resourcePackages = setOf("utopiaia.odc.ext.wrapper.api")
 }
 
 val copyOpenapiYamlToDocs by tasks.registering(Copy::class) {

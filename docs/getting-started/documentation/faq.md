@@ -4,7 +4,7 @@ icon: message-question
 
 ## Welcome to our Frequently Asked Questions (FAQ) collection!
 
-This section is designed to provide quick and clear answers to the most common queries we receive. Whether you're looking for information on our products, services, policies, or need help with troubleshooting, you'll find the answers here. If you can't find the answer to your question, don't hesitate to open a [dicussion](https://github.com/sovity/edc-ce/discussions).
+This section is designed to provide quick and clear answers to the most common queries we receive. Whether you're looking for information on our products, services, policies, or need help with troubleshooting, you'll find the answers here. If you can't find the answer to your question, don't hesitate to open a [dicussion](https://github.com/sovity/opendataspace/discussions).
 
 ### How does the EDC API-key work for backend and frontend for API-authentication?
 

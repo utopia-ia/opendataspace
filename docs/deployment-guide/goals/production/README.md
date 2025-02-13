@@ -33,8 +33,8 @@ To deploy an EDC multiple deployment units must be deployed and configured.
 |-------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | An Auth Proxy / Auth solution of your choice.                     | (deployment specific, required to secure UI and management API)                             |
 | Reverse Proxy that merges multiple services and removes the ports | (deployment specific)                                                                       |
-| Postgresql                                                        | edc-ce compatible version, see [docker-compose](https://github.com/sovity/edc-ce/blob/main/docker-compose.yaml)                          |
-| EDC Backend                                                       | edc-ce or edc-ce-mds, see [CHANGELOG.md](../../../../CHANGELOG.md) for compatible versions. |
+| Postgresql                                                        | opendataspace compatible version, see [docker-compose](https://github.com/sovity/opendataspace/blob/main/docker-compose.yaml)                          |
+| EDC Backend                                                       | opendataspace or opendataspace-mds, see [CHANGELOG.md](../../../../CHANGELOG.md) for compatible versions. |
 | EDC UI                                                            | edc-ui, see  [CHANGELOG.md](../../../../CHANGELOG.md) for compatible versions.              |
 
 ## Configuration

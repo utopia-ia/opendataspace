@@ -1,8 +1,8 @@
 [versions]
 # groups
 edcGroup = "org.eclipse.edc"
-sovityEdcExtensionGroup = "de.sovity.edc.ext"
-sovityEdcGroup = "de.sovity.edc"
+sovityEdcExtensionGroup = "utopiaia.odc.ext"
+sovityEdcGroup = "utopiaia.odc"
 
 # images
 postgresDbImage = "postgres:15-alpine"

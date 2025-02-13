@@ -9,7 +9,7 @@ These are not easily testable and require a manual check.
 After each EDC version update
 
 - [ ]  Check if `org.eclipse.edc.spi.types.domain.asset.Asset.toBuilder` added a new
-  field and adjust the builder in `de.sovity.edc.ext.wrapper.api.ui.pages.asset.AssetBuilder.fromEditMetadataRequest` accordingly
+  field and adjust the builder in `utopiaia.odc.ext.wrapper.api.ui.pages.asset.AssetBuilder.fromEditMetadataRequest` accordingly
 
 ## Context
 
@@ -17,7 +17,7 @@ After each EDC version update
 
 A list of the element that may break when updating the EDC version.
 
-In `de.sovity.edc.ext.wrapper.api.ui.pages.asset.AssetBuilder.fromEditMetadataRequest`
+In `utopiaia.odc.ext.wrapper.api.ui.pages.asset.AssetBuilder.fromEditMetadataRequest`
 
 When re-creating the asset, we can't re-use the `Asset.toBuilder()` as it doesn't allow us to remove properties.
 

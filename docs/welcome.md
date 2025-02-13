@@ -8,10 +8,10 @@ Welcome to the sovity EDC (Eclipse Dataspace Connector) documentation. This site
 
 ## Community and Support
 
-Join our community to stay updated on the latest developments, share your experiences, and collaborate with other users and developers. If you need help or have any questions, check out our [GitHub discussions](https://github.com/sovity/edc-ce/discussions).
+Join our community to stay updated on the latest developments, share your experiences, and collaborate with other users and developers. If you need help or have any questions, check out our [GitHub discussions](https://github.com/sovity/opendataspace/discussions).
 
 ## Learn More
 
-Dive deeper into our EDC by exploring our detailed documentation, or visit the [GitHub repository](https://github.com/sovity/edc-ce) to see the code and contribute to the project.
+Dive deeper into our EDC by exploring our detailed documentation, or visit the [GitHub repository](https://github.com/sovity/opendataspace) to see the code and contribute to the project.
 
 Happy data sharing!

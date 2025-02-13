@@ -7,15 +7,15 @@ info:
     \ API Client Libraries."
   contact:
     name: sovity GmbH
-    url: https://github.com/sovity/edc-ce/issues/new/choose
+    url: https://github.com/sovity/opendataspace/issues/new/choose
     email: contact@sovity.de
   license:
     name: Apache 2.0
-    url: https://github.com/sovity/edc-ce/blob/main/LICENSE
+    url: https://github.com/sovity/opendataspace/blob/main/LICENSE
   version: 0.0.0
 externalDocs:
-  description: EDC API Wrapper Project in sovity/edc-ce
-  url: https://github.com/sovity/edc-ce/tree/main/extensions/wrapper
+  description: EDC API Wrapper Project in sovity/opendataspace
+  url: https://github.com/sovity/opendataspace/tree/main/extensions/wrapper
 servers:
 - url: https://my-connector/api/management
 tags:

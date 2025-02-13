@@ -11,7 +11,7 @@ dependencies {
 }
 
 application {
-    mainClass.set("de.sovity.edc.Main")
+    mainClass.set("utopiaia.odc.Main")
 }
 
 tasks.withType<com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar> {

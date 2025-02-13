@@ -24,7 +24,7 @@ dependencies {
     testImplementation("io.rest-assured:rest-assured")
 }
 
-group = "de.sovity.edc.client.examples"
+group = "utopiaia.odc.client.examples"
 
 tasks.withType<Test> {
     systemProperty("java.util.logging.manager", "org.jboss.logmanager.LogManager")

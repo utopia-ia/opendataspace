@@ -60,7 +60,7 @@ val startTestcontainer = tasks.register("startTestcontainer") {
 
 
 val migrationsDir = "../../extensions/postgres-flyway/src/main/resources/db/migration"
-val jooqTargetPackage = "de.sovity.edc.ext.db.jooq"
+val jooqTargetPackage = "utopiaia.odc.ext.db.jooq"
 
 val jooqTargetDir = "build/generated/jooq/" + jooqTargetPackage.replace(".", "/")
 

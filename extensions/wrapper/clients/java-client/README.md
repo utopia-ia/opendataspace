@@ -1,16 +1,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/sovity/edc-ce">
+  <a href="https://github.com/sovity/opendataspace">
     <img src="https://raw.githubusercontent.com/sovity/edc-ui/main/src/assets/images/sovity_logo.svg" alt="Logo" width="300">
   </a>
 
 <h3 align="center">EDC-Connector Extension:<br />API Wrapper &amp; API Clients:<br />Java API Client</h3>
 
   <p align="center">
-    <a href="https://github.com/sovity/edc-ce/issues/new?template=bug_report.md">Report Bug</a>
+    <a href="https://github.com/sovity/opendataspace/issues/new?template=bug_report.md">Report Bug</a>
     ·
-    <a href="https://github.com/sovity/edc-ce/issues/new?template=feature_request.md">Request Feature</a>
+    <a href="https://github.com/sovity/opendataspace/issues/new?template=feature_request.md">Request Feature</a>
   </p>
 </div>
 
@@ -25,9 +25,9 @@ An example project using this client can be found [here](../java-client-example)
 ```xml
 <!-- Requires the GitHub Maven Registry -->
 <dependency>
-  <groupId>de.sovity.edc</groupId>
+  <groupId>utopiaia.odc</groupId>
   <artifactId>client</artifactId>
-  <version>${sovity-edc-ce.version}</version>
+  <version>${sovity-opendataspace.version}</version>
 </dependency>
 ```
 
@@ -41,8 +41,8 @@ in [ApiWrapperDemoTest.java](../../../../tests/src/test/java/de/sovity/edc/e2e/A
 ### Example Using API Key Auth
 
 ```java
-import de.sovity.edc.client.EdcClient;
-import de.sovity.edc.client.gen.model.KpiResult;
+import utopiaia.odc.client.EdcClient;
+import utopiaia.odc.client.gen.model.KpiResult;
 
 /**
  * Example using a sovity Community Edition EDC Connector
@@ -70,10 +70,10 @@ public class WrapperClientExample {
 ### Example Using OAuth2 Client Credentials
 
 ```java
-import de.sovity.edc.client.EdcClient;
-import de.sovity.edc.client.gen.model.KpiResult;
-import de.sovity.edc.client.oauth2.Oauth2ClientCredentials;
-import de.sovity.edc.client.oauth2.SovityKeycloakUrl;
+import utopiaia.odc.client.EdcClient;
+import utopiaia.odc.client.gen.model.KpiResult;
+import utopiaia.odc.client.oauth2.Oauth2ClientCredentials;
+import utopiaia.odc.client.oauth2.SovityKeycloakUrl;
 
 /**
  * Example using a productive Connector-as-a-Service (CaaS) EDC Connector

@@ -14,7 +14,7 @@
 
 import org.junit.jupiter.api.Test;
 
-import static de.sovity.edc.utils.config.utils.UrlPathUtils.urlPathJoin;
+import static utopiaia.odc.utils.config.utils.UrlPathUtils.urlPathJoin;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class UrlPathUtilsTest {

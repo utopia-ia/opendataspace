@@ -38,5 +38,5 @@ While both the Management-API and the API-Wrapper allow interaction with the EDC
 
 Both APIs are available in our Postman collection and can be used for our CaaS.
 {% hint style="info" %} 
-Link: <a href="https://github.com/sovity/edc-ce/blob/main/docs/api/postman_collection.json">sovity Postman collection</a>
+Link: <a href="https://github.com/sovity/opendataspace/blob/main/docs/api/postman_collection.json">sovity Postman collection</a>
 {% endhint %}

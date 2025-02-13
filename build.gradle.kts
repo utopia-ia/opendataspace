@@ -74,7 +74,7 @@ allprojects {
     }
 
     checkstyle {
-        toolVersion = "10.9.3"
+        toolVersion = "10.9.4"
         configFile = rootProject.file("docs/dev/checkstyle/checkstyle-config.xml")
         configDirectory.set(rootProject.file("docs/dev/checkstyle"))
         maxErrors = 0 // does not tolerate errors
@@ -100,11 +100,6 @@ allprojects {
                 password = project.findProperty("gpr.key") as String? ?: System.getenv("TOKEN")
             }
         }
-        maven {
-            url =
-                uri("https://pkgs.dev.azure.com/sovity/41799556-91c8-4df6-8ddb-4471d6f15953/_packaging/core-edc/maven/v1")
-            name = "AzureRepo"
-        }
     }
 }
 
@@ -118,7 +113,7 @@ subprojects {
         repositories {
             maven {
                 name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/sovity/edc-ce")
+                url = uri("https://maven.pkg.github.com/utopia-ia/opendataspace")
                 credentials {
                     username = project.findProperty("gpr.user") as String? ?: System.getenv("USERNAME")
                     password = project.findProperty("gpr.key") as String? ?: System.getenv("TOKEN")

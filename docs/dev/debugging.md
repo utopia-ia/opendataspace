@@ -46,6 +46,6 @@ To connect to the EDC, in IJ, do:
   * check the `ports` mapping in the docker compose file where you added the remote debugging options
   * look for the entry that is `#####:5005`
   * This `#####` port is the port you want to connect to. 
-* Use module classpath: use sovity-edc-ce
+* Use module classpath: use sovity-opendataspace
 
 Enjoy! :)
